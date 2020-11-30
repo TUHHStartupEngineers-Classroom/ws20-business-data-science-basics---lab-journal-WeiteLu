@@ -20,3 +20,13 @@ This is a template example for lab journaling. Students in the data science cour
 3. See the [links page](https://tuhhstartupengineers.github.io/lab_journal_website/links.html) for lots of helpful links on learning R.
 
 4. Change everything to make it your own.
+
+```{r, eval = TRUE}
+numbers <- 1:1000
+
+# This will print the first 10 elements of the vector numbers
+numbers[1:10]
+
+# This will plot a histogram of 100 random elements of the vector numbers
+hist(sample(numbers, 100, replace = T))
+```
