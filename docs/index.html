@@ -345,6 +345,14 @@ $(document).ready(function () {
 <li><p>See the <a href="https://tuhhstartupengineers.github.io/lab_journal_website/links.html">links page</a> for lots of helpful links on learning R.</p></li>
 <li><p>Change everything to make it your own.</p></li>
 </ol>
+<pre class="r"><code>numbers &lt;- 1:1000
+
+# This will print the first 10 elements of the vector numbers
+numbers[1:10]</code></pre>
+<pre><code>##  [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
+<pre class="r"><code># This will plot a histogram of 100 random elements of the vector numbers
+hist(sample(numbers, 100, replace = T))</code></pre>
+<p><img src="index_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
 </div>
 </div>
 
